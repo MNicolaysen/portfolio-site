@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-btn {
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar-btn:hover {
+  color: red;
+}
