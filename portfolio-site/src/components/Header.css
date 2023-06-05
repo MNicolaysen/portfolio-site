@@ -2,6 +2,7 @@
   margin-top: 70px;
   display: grid;
   place-items: center;
+  margin-bottom: 180px;
 }
 
 .profile-pic {
@@ -19,6 +20,12 @@
 
 .subheading {
   margin-top: 0px;
+}
+
+p {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .btn {

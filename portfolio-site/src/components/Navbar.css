@@ -18,9 +18,10 @@
 }
 
 .navbar-btn {
-  padding: 10px 12px;
-  font-size: 35px;
+  padding: 5px 10px;
+  font-size: 30px;
   background-color: transparent;
   border-style: none;
   text-decoration: none;
+  color: black;
 }
