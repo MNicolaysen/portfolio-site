@@ -1,12 +1,12 @@
 .container {
-  margin-top: 50px;
+  margin-top: 70px;
   display: grid;
   place-items: center;
 }
 
 .profile-pic {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
   border-radius: 50%;
   justify-self: center;
