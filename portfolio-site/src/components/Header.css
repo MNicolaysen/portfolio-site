@@ -1,8 +1,6 @@
 .container {
-  margin-top: 70px;
   display: grid;
   place-items: center;
-  margin-bottom: 180px;
 }
 
 .profile-pic {

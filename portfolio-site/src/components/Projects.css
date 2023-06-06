@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid grey;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.screenshot {
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+}

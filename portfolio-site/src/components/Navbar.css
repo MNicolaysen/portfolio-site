@@ -13,7 +13,7 @@
   align-items: center;
   margin-bottom: 20px;
   border-radius: 50px;
-  background-color: grey;
+  background-color: rgba(84, 84, 84, 0.8);
   padding: 1px 10px;
 }
 
@@ -30,4 +30,8 @@ ul {
   border-style: none;
   text-decoration: none;
   color: black;
+}
+
+.navbar-btn i {
+  opacity: 1;
 }
