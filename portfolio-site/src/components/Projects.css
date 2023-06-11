@@ -1,22 +1,53 @@
 .card {
-  border: 1px solid grey;
   display: grid;
   align-items: center;
   justify-content: center;
   width: 70%;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .card h3 {
   text-align: center;
-  margin: 0;
+  margin: 6px;
 }
 
 .card h4 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  margin-left: 6px;
+  font-size: 12px;
+  text-decoration: underline;
 }
 
-.screenshot {
+.card p {
+  margin-bottom: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.project-img {
   align-self: center;
   justify-self: center;
   width: 100%;
+  max-height: 180px;
+  min-height: 150px;
+  object-fit: contain;
+}
+
+.see-more-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  width: 80px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: none;
+  border-right: none;
+  padding: 6px;
+  border-radius: 6px 0 0 0;
+  background-color: white;
 }

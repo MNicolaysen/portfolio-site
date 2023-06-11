@@ -1,0 +1,33 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+
+button[type='submit'] {
+  /* Add your button styles here */
+}
+
+.email-header {
+  margin: 2px 35px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link {
+  margin: 10px;
+  font-size: 30px;
+}
