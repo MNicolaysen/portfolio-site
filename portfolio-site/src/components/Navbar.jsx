@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul>
           <CustomLink to="/" className="navbar-btn"><i className="fa-solid fa-house"></i></CustomLink>
           <CustomLink to="/about" className="navbar-btn"><i className="fa-solid fa-address-card"></i></CustomLink>
-          <CustomLink to="/skills" className="navbar-btn"><i className="fa-solid fa-gear"></i></CustomLink>
+          <CustomLink to="/experience" className="navbar-btn"><i className="fa-solid fa-gear"></i></CustomLink>
           <CustomLink to="/projects" className="navbar-btn"><i className="fa-solid fa-diagram-project"></i></CustomLink>
           <CustomLink to="/contact" className="navbar-btn"><i className="fa-solid fa-envelope"></i></CustomLink>
         </ul>
