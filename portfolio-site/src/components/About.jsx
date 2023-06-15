@@ -57,14 +57,14 @@ export default function About() {
               renderArrowPrev={(onClickHandler, hasPrev, label) =>
                 hasPrev && (
                   <button type="button" onClick={onClickHandler} title={label} className="carousel-arrow carousel-arrow-prev">
-                    <span className="arrow-left">BACK</span>
+                    <span className="arrow-left">←</span>
                   </button>
                 )
               }
               renderArrowNext={(onClickHandler, hasNext, label) =>
                 hasNext && (
                   <button type="button" onClick={onClickHandler} title={label} className="carousel-arrow carousel-arrow-next">
-                    <span className="arrow-right">NEXT</span>
+                    <span className="arrow-right">→</span>
                   </button>
                 )
               }
