@@ -42,7 +42,6 @@ export default function About() {
 
   return (
     <div>
-      <h2 className='main-header'>About Me</h2>
       <div className="about">
         <div className='carousel'>
           <Carousel
@@ -76,7 +75,7 @@ export default function About() {
               ))}
           </Carousel>
         </div>
-
+        <h2 className='main-header'>About Me</h2>
         <Tabs>
         <TabList>
             {aboutContent.map((content, index) => (

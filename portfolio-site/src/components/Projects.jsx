@@ -1,5 +1,5 @@
 import { projectsData } from './projectsData';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import "./Projects.css";
 
 function Card({ title, imageSrc, framework, alt, description, link }) {
@@ -51,12 +51,24 @@ function Card({ title, imageSrc, framework, alt, description, link }) {
 }
 
 export default function Projects() {
+  const lastCardRef = useRef(null);
+
+  useEffect(() => {
+    const lastCard = lastCardRef.current;
+
+    if (lastCard) {
+      lastCard.style.marginBottom = '0';
+    }
+  }, []);
+
   return (
-    <div>
+    <div className='projects'>
       <h2 className='main-header'>My Projects</h2>
-      {projectsData.map((project, index) => (
-        <Card key={index} {...project} />
-      ))}
+      <div className='card-group'>
+          {projectsData.map((project, index) => (
+            <Card key={index} {...project} />
+          ))}
+      </div>
     </div>
   );
 }

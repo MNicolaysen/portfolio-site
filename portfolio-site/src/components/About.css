@@ -9,8 +9,13 @@
 }
 
 .carousel {
+  margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
+}
+
+.react-tabs ul {
+  margin-bottom: 50px;
 }
 
 .carousel .control-dots {
@@ -39,8 +44,8 @@
 
 @media (min-width: 1000px) {
   .carousel-img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 
   .carousel-arrow {
