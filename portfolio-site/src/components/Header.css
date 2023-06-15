@@ -29,5 +29,53 @@
 }
 
 .header p {
-  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.contact-link-header {
+  display: none;
+  margin: 10px;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 1000px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: beige;
+  }
+
+  .header {
+    align-self: center;
+  }
+
+  .profile-pic {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  .header h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-link-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .facebook-icon,
+  .instagram-icon {
+    transform: none !important;
+  }
 }

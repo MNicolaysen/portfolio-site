@@ -1,8 +1,8 @@
-import memeGenerator from '../components/images/screenshot_2023-06-02-08-49-30-0000.png';
-import restaurantApp from "../components/images/Screenshot 2023-06-11 at 21.12.10.png";
-import passwordGenerator from "../components/images/Screenshot 2023-06-11 at 21.27.26.png";
-import unitConverter from "../components/images/Screenshot 2023-06-11 at 21.39.12.png";
-import travelJournal from "../components/images/Screenshot 2023-06-11 at 21.52.08.png";
+import memeGenerator from '../components/images/projects/meme-generator.png';
+import restaurantApp from "../components/images/projects/restaurant.png";
+import passwordGenerator from "../components/images/projects/password-generator.png";
+import unitConverter from "../components/images/projects/unit-converter.png";
+import travelJournal from "../components/images/projects/travel-journal.png";
 
 export const projectsData = [
   {

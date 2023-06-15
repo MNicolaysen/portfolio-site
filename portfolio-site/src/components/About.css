@@ -11,3 +11,10 @@
 .carousel {
   margin-bottom: 50px;
 }
+
+@media (min-width: 1000px) {
+  .carousel-img {
+    width: 350px;
+    height: 350px;
+  }
+}

@@ -1,3 +1,7 @@
+.section {
+  margin: 12px;
+}
+
 .experience h3 {
   text-decoration: underline;
 }
@@ -12,7 +16,7 @@
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .education li,
@@ -23,7 +27,7 @@
 .soft-skills li h4 {
   text-decoration: underline;
   margin-bottom: 3px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .soft-skills li {
@@ -51,9 +55,41 @@
 }
 
 .technical-skills-li {
-  font-size: 45px;
+  font-size: 2.8rem;
   list-style-type: none;
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+@media (min-width: 1000px) {
+  .section h3 {
+    font-size: 1.375rem;
+  }
+
+  .section h4, h5 {
+    font-size: 1rem;
+  }
+
+  .section li {
+    font-size: 0.875rem;
+  }
+
+  .soft-skills li h4 {
+    font-size: 1rem;
+  }
+
+  .experience .technical-skills-ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .technical-skills-li {
+    font-size: 2.8rem !important;
+    height: 80px;
+    align-items: center;
+    margin: auto;
+  }
 }
