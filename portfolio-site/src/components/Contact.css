@@ -11,21 +11,19 @@
   max-width: 400px;
   margin: 0 auto;
   position: relative;
+  margin-top: 50px;
 }
 
 .email-header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   font-size: 1rem;
   margin-bottom: 4px;
-  position: absolute;
-  top: -45px;
-  left: 0;
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   height: 150px;
   resize: vertical;
@@ -62,7 +60,7 @@ button[type='submit'] {
   }
 
   .form-group {
-    align-items: center;
+    align-items: flex-start;
     align-self: center;
     width: 72%;
     max-width: 800px;
@@ -84,6 +82,7 @@ button[type='submit'] {
     max-width: 600px;
     height: 200px;
     font-size: 1rem;
+    margin-top: 10px;
   }
 
   .map {

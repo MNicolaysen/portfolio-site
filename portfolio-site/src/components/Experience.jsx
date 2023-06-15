@@ -16,6 +16,7 @@ function Section({ title, data }) {
               <li key={index}>{point}</li>
             ))}
           </ul>
+          <br />
         </div>
       ))}
     </div>
