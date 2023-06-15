@@ -6,6 +6,19 @@
   margin: 20px 0 0 10px;
 }
 
+.facebook-icon {
+    background: linear-gradient(to bottom left, #d244ad, #3d6ff6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-45deg);
+  }
+
+  .instagram-icon {
+  background: linear-gradient(to bottom left, #7d3caf, #f95c01);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: rotate(-45deg);
+}
 
 @media (min-width: 1000px) {
   .container {
