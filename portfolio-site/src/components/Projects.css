@@ -79,8 +79,8 @@
     width: 450px;
     height: 300px;
     cursor: pointer;
-    border: solid 4px black;
-    box-shadow: 0 0 10px black;
+    border: solid 5px white;
+    box-shadow: 0 0 5px 4px black;
     margin-bottom: -210px;
     transition: margin-bottom 0.3s ease-out;
   }

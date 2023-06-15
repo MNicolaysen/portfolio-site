@@ -64,8 +64,10 @@
   }
 
   .profile-pic {
-    width: 20rem;
-    height: 20rem;
+    width: 23rem;
+    height: 23rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .header h1 {

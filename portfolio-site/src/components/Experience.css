@@ -80,7 +80,7 @@
   }
 
   .experience .technical-skills-ul {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 1px;
     max-width: 720px;
     margin: 0 auto;
