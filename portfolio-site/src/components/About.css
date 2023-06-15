@@ -10,11 +10,46 @@
 
 .carousel {
   margin-bottom: 50px;
+  display: flex;
 }
+
+.carousel .control-dots {
+  display: none;
+}
+
+.carousel-arrow {
+  align-self: center;
+  height: 60px;
+  width: 80px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: beige;
+}
+
+.carousel-arrow:active {
+  box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+  transform: scale(.98);
+}
+
+.selected-tab {
+  background-color: beige;
+  outline: 1px solid black !important;
+}
+
 
 @media (min-width: 1000px) {
   .carousel-img {
     width: 350px;
     height: 350px;
+  }
+
+  .carousel-arrow {
+    height: 50px;
+    width: 55px;
+  }
+
+  .carousel-arrow:hover {
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.03);
   }
 }

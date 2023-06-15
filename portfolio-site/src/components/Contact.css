@@ -1,9 +1,14 @@
-.form-group {
+.contact-elements {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
+}
+
+.form-group {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 textarea {
@@ -13,16 +18,21 @@ textarea {
   margin-bottom: 10px;
 }
 
-
 button[type='submit'] {
   background-color: beige;
-  border-style: black;
+  border-style: none;
   border-radius: 6px;
-  width: 80%;
+  width: 68%;
+  height: 35px;
+  font-size: 1.25rem;
 }
 
 .email-header {
-  margin: 30px 0 0 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 4px;
 }
 
 .contact-links {
@@ -33,20 +43,6 @@ button[type='submit'] {
 .contact-link {
   margin: 10px;
   font-size: 1.875rem;
-}
-
-.facebook-icon {
-  background: linear-gradient(to bottom left, rgb(210,68,173), rgb(61,111,246));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: rotate(-45deg);
-}
-
-.instagram-icon {
-  background: linear-gradient(to bottom left, rgb(125,60,175), rgb(249,92,1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: rotate(-45deg);
 }
 
 @media (min-width: 1000px) {
@@ -69,10 +65,11 @@ button[type='submit'] {
   .form-group .email-header {
     align-self: flex-start;
     font-size: 1.25rem;
+    margin: 0;
   }
 
   .email-header {
-    margin: 0 0 6px 47px;
+    margin: 0;
   }
 
   textarea {
@@ -87,8 +84,12 @@ button[type='submit'] {
   }
 
   button[type='submit'] {
-    padding: 6px 12px;
-    font-size: 1rem;
+    padding: 10px 0;
+    font-size: 1.5rem;
     width: 5rem;
+  }
+
+  button[type='submit']:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   }
 }

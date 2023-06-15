@@ -53,7 +53,7 @@ function Card({ title, imageSrc, framework, alt, description, link }) {
 export default function Projects() {
   return (
     <div>
-      <h2 className='main-header'>Projects</h2>
+      <h2 className='main-header'>My Projects</h2>
       {projectsData.map((project, index) => (
         <Card key={index} {...project} />
       ))}

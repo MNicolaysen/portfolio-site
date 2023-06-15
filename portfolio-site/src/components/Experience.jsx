@@ -102,7 +102,7 @@ export default function Experience() {
 
   return (
     <div className="experience">
-      <h2 className='main-header'>Experience</h2>
+      <h2 className='main-header'>My Experience</h2>
       <Section title="Web Development" data={webDevelopmentData} />
       <Section title="Work History" data={workHistoryData} />
       <EducationSection />
