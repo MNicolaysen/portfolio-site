@@ -28,6 +28,7 @@ textarea {
   height: 150px;
   resize: vertical;
   margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 button[type='submit'] {
@@ -37,6 +38,7 @@ button[type='submit'] {
   width: 68%;
   height: 35px;
   font-size: 1.25rem;
+  color: black;
 }
 
 .contact-links {

@@ -39,53 +39,68 @@ export default function About() {
     },
   ];
 
-
   return (
     <div>
       <div className="about">
         <div className='carousel'>
           <Carousel
-              showThumbs={false}
-              infiniteLoop={true}
-              autoPlay={true}
-              interval={3000}
-              showStatus={false}
-              emulateTouch={true}
-              stopOnHover={true}
-              transitionTime={500}
-              renderArrowPrev={(onClickHandler, hasPrev, label) =>
-                hasPrev && (
-                  <button type="button" onClick={onClickHandler} title={label} className="carousel-arrow carousel-arrow-prev">
-                    <span className="arrow-left">←</span>
-                  </button>
-                )
-              }
-              renderArrowNext={(onClickHandler, hasNext, label) =>
-                hasNext && (
-                  <button type="button" onClick={onClickHandler} title={label} className="carousel-arrow carousel-arrow-next">
-                    <span className="arrow-right">→</span>
-                  </button>
-                )
-              }
-            >
-              {images.map((image, index) => (
-                <div className="carousel" key={index}>
-                  <img className="carousel-img" src={image} alt={`Image ${index + 1}`} />
-                </div>
-              ))}
+            showThumbs={false}
+            infiniteLoop={true}
+            autoPlay={true}
+            interval={3000}
+            showStatus={false}
+            emulateTouch={true}
+            stopOnHover={true}
+            transitionTime={500}
+            renderArrowPrev={(onClickHandler, hasPrev, label) =>
+              hasPrev && (
+                <button
+                  type="button"
+                  onClick={onClickHandler}
+                  title={label}
+                  className="carousel-arrow carousel-arrow-prev"
+                >
+                  <span className="arrow-left">←</span>
+                </button>
+              )
+            }
+            renderArrowNext={(onClickHandler, hasNext, label) =>
+              hasNext && (
+                <button
+                  type="button"
+                  onClick={onClickHandler}
+                  title={label}
+                  className="carousel-arrow carousel-arrow-next"
+                >
+                  <span className="arrow-right">→</span>
+                </button>
+              )
+            }
+          >
+            {images.map((image, index) => (
+              <div className="carousel" key={index}>
+                <img
+                  className="carousel-img"
+                  src={image}
+                  alt={`Image ${index + 1}`}
+                />
+              </div>
+            ))}
           </Carousel>
         </div>
-        <h2 className='main-header'>About Me</h2>
+        <h2 className="main-header">About Me</h2>
         <Tabs>
-        <TabList>
+          <TabList>
             {aboutContent.map((content, index) => (
-              <Tab key={index} selectedClassName="selected-tab">{content.title}</Tab>
+              <Tab key={index} selectedClassName="selected-tab">
+                {content.title}
+              </Tab>
             ))}
           </TabList>
 
           {aboutContent.map((content, index) => (
             <TabPanel key={index}>
-              <p>{content.text}</p>
+              <div className="about-content">{content.text}</div>
             </TabPanel>
           ))}
         </Tabs>
