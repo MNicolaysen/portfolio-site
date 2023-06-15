@@ -71,6 +71,10 @@ button[type='submit'] {
     font-size: 1.25rem;
   }
 
+  .email-header {
+    margin: 0 0 6px 47px;
+  }
+
   textarea {
     width: 86%;
     font-size: 1rem;
