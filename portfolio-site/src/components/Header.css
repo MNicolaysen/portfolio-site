@@ -1,9 +1,14 @@
 .header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: calc(100vh - env(safe-area-inset-top));
+  height: 100vh;
   overflow: hidden;
   background-color: beige;
+  z-index: 800; /* Adjust the z-index value as needed */
 }
+
 
 .profile-pic {
   width: 320px;
