@@ -21,7 +21,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 5px !important;
+  margin-left: 8px !important;
   font-size: 1rem;
   margin-bottom: 4px;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -38,7 +38,7 @@ textarea {
   max-width: 400px;
   height: 250px;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 8px;
   resize: vertical;
   font-size: 1rem;
   font-family: 'Mukta Vaani', sans-serif;
@@ -54,7 +54,7 @@ button[type='submit'] {
   color: black;
   background-color: transparent;
   position: absolute;
-  right: 5px;
+  right: 0;
   top: 0;
 }
 
@@ -129,6 +129,5 @@ button[type='submit'] {
     width: 3.5rem;
     cursor: pointer;
     margin-right: 8px;
-    right: 0;
   }
 }
