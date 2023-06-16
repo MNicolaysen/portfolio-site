@@ -54,7 +54,7 @@
 }
 
 .react-tabs__tab:focus:after {
-  background: transparent;
+  background: transparent !important;
 }
 
 
