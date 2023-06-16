@@ -52,6 +52,7 @@ export default function About() {
             emulateTouch={true}
             stopOnHover={true}
             transitionTime={500}
+            swipeable={true}
             renderArrowPrev={(onClickHandler, hasPrev, label) =>
               hasPrev && (
                 <button

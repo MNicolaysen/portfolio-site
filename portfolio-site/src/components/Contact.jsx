@@ -18,7 +18,7 @@ function Contact() {
       <h3 className="main-header">Contact Me</h3>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <h4 className="email-header">To: morton.nicolaysen@gmail.com</h4>
+          <h4 className="email-header">morton.nicolaysen@gmail.com</h4>
           <div className='contact-elements'>
             <textarea
               value={message}

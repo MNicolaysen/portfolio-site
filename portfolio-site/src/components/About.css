@@ -1,7 +1,3 @@
-.about {
-  padding: 15px;
-}
-
 .carousel-img {
   width: 320px;
   height: 320px;
@@ -16,6 +12,11 @@
 
 .carousel-arrow {
   display: none;
+  cursor: pointer;
+}
+
+.react-tabs {
+  margin: 25px;
 }
 
 .react-tabs ul {
@@ -57,16 +58,21 @@
 
   .carousel-arrow {
     display: block;
-    height: 50px;
-    width: 55px;
+    height: 65px;
+    width: 80px;
+    font-size: 1.875rem;
+  }
+
+  .carousel-arrow-next {
+    margin-right: 30px;
+  }
+
+  .carousel-arrow-prev {
+    margin-left: 25px;
   }
 
   .carousel-arrow:hover {
     box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
     transform: scale(1.03);
-  }
-
-  .carousel-arrow {
-    font-size: 30px;
   }
 }
