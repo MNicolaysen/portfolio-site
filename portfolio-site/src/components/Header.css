@@ -6,7 +6,7 @@
   height: 100vh;
   overflow: hidden;
   background-color: beige;
-  z-index: 800; /* Adjust the z-index value as needed */
+  z-index: -1; /* Adjust the z-index value as needed */
 }
 
 
