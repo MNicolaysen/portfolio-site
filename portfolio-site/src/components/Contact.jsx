@@ -45,12 +45,12 @@ function Contact() {
           </a>
         </li>
         <li className="contact-link">
-          <a className='facebook-icon' href="https://m.me/nicolaysen1995" target="_blank" rel="noopener noreferrer">
+          <a style={{color: 'rgb(0,128,247)'}} href="https://m.me/nicolaysen1995" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-facebook-messenger"></i>
           </a>
         </li>
         <li className="contact-link">
-          <a className='instagram-icon' href="https://www.instagram.com/morton_nicolaysen/" target="_blank" rel="noopener noreferrer">
+          <a style={{color: 'rgb(229,37,90)'}} href="https://www.instagram.com/morton_nicolaysen/" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-instagram"></i>
           </a>
         </li>

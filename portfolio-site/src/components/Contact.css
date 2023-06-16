@@ -38,7 +38,7 @@
 }
 
 textarea {
-  width: 80%;
+  width: 94%;
   max-width: 400px;
   height: 250px;
   margin-top: 10px;
@@ -47,6 +47,7 @@ textarea {
   font-size: 1rem;
   font-family: 'Mukta Vaani', sans-serif;
   border: none;
+  resize: none;
 }
 
 button[type='submit'] {
@@ -112,9 +113,7 @@ button[type='submit'] {
     height: 200px;
     font-size: 1rem;
     margin-top: 10px;
-    border: none;
     margin-bottom: 0;
-    resize: none;
   }
 
   textarea:focus {
