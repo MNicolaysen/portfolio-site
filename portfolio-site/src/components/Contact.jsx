@@ -50,7 +50,7 @@ function Contact() {
           </a>
         </li>
         <li className="contact-link">
-          <a style={{color: 'rgb(156,40,178)'}} href="https://www.instagram.com/morton_nicolaysen/" target="_blank" rel="noopener noreferrer">
+          <a style={{color: 'rgb(229,37,90)'}} href="https://www.instagram.com/morton_nicolaysen/" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-instagram"></i>
           </a>
         </li>
