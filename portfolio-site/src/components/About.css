@@ -47,10 +47,14 @@
 }
 
 .selected-tab {
-  background-color: beige;
+  background-color: #F7F3E3;
   border-top: 2px solid #202020 !important;
   border-left: 2px solid #202020 !important;
   border-right: 2px solid #202020 !important;
+}
+
+.react-tabs__tab:focus:after {
+  background: transparent;
 }
 
 
