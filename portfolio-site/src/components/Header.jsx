@@ -22,6 +22,7 @@ export default function Header() {
 
   return (
     <div className="header-container">
+      <meta name="theme-color" content="beige"/>
       <div className="header">
         <div className="image-container">
           <img className="profile-pic" src={profilePic} alt="profile-pic" />
