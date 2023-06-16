@@ -1,3 +1,7 @@
+.contact {
+  height: 650px;
+}
+
 .contact-elements {
   display: flex;
   flex-direction: column;
