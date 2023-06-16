@@ -1,47 +1,61 @@
 .contact-elements {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin-bottom: 12px;
 }
 
 .form-group {
-  width: 100%;
-  max-width: 400px;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 350px;
+  padding-top: 10px;
   margin: 0 auto;
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 
 .email-header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  font-size: 1.25rem;
+  margin-left: 5px !important;
+  font-size: 1rem;
   margin-bottom: 4px;
   font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.email-header:not(:last-child) {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  width: 96%;
 }
 
 textarea {
   width: 80%;
   max-width: 400px;
   height: 250px;
+  margin-top: 10px;
+  margin-left: 5px;
   resize: vertical;
-  margin-bottom: 10px;
   font-size: 1rem;
   font-family: 'Mukta Vaani', sans-serif;
+  border: none;
 }
 
 button[type='submit'] {
   background-color: #F7F3E3;
   border-style: none;
   border-radius: 6px;
-  width: 68%;
   height: 45px;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   color: black;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  background-color: transparent;
+  position: absolute;
+  right: 5px;
+  top: 0;
 }
 
 .contact-links {
@@ -77,16 +91,15 @@ button[type='submit'] {
     margin: 50px 0 60px 0;
     background-color: white;
     padding: 10px 20px;
-    border: 1px solid black;
   }
 
   .email-header {
     display: block;
+    margin-left: 0;
   }
 
   .email-header:not(:last-child) {
-    padding: 8px 0;
-    border-bottom: 1px solid #ccc;
+    width: 100%;
   }
 
   textarea {
@@ -114,11 +127,8 @@ button[type='submit'] {
     height: 50px;
     font-size: 1.2rem;
     width: 3.5rem;
-    background-color: transparent;
-    position: absolute;
-    right: 0;
-    top: 0;
     cursor: pointer;
     margin-right: 8px;
+    right: 0;
   }
 }
