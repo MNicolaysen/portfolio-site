@@ -24,10 +24,12 @@
 
 .heading {
   margin-bottom: 0px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .subheading {
   margin-top: 0px;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .header h1,
@@ -55,10 +57,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 41%;
     height: 100vh;
     overflow-y: auto;
-    background-color: beige;
+    background-color: #F7F3E3;
     z-index: 9999;
   }
 

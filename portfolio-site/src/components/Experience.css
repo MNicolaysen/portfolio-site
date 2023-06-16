@@ -4,11 +4,18 @@
 
 .experience h3 {
   text-decoration: underline;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1.6rem !important;
+}
+
+.experience h4 {
+  font-size: 1.25rem !important;
 }
 
 .experience h4,
 .experience h5 {
   margin: 0;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .experience ul {
@@ -17,6 +24,7 @@
   display: flex;
   flex-direction: column;
   font-size: 0.8rem;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .education li,
@@ -69,6 +77,10 @@
 }
 
 @media (min-width: 1000px) {
+  .experience {
+    margin-left: 25px;
+  }
+
   .section h3 {
     font-size: 1.375rem;
   }

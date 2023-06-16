@@ -10,17 +10,17 @@
   display: flex;
 }
 
-.carousel-arrow {
-  display: none;
-  cursor: pointer;
-}
-
 .react-tabs {
   margin: 25px;
 }
 
 .react-tabs ul {
   margin-bottom: 50px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.about-content p {
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .carousel .control-dots {
@@ -36,7 +36,9 @@
   width: 80px;
   border-radius: 50%;
   border-style: none;
-  background-color: beige;
+  background-color: #F7F3E3;
+  display: none;
+  cursor: pointer;
 }
 
 .carousel-arrow:active {
@@ -46,11 +48,21 @@
 
 .selected-tab {
   background-color: beige;
-  outline: 1px solid black !important;
+  border-top: 2px solid #202020 !important;
+  border-left: 2px solid #202020 !important;
+  border-right: 2px solid #202020 !important;
 }
 
 
 @media (min-width: 1000px) {
+  .about-container {
+    margin-left: 25px;
+  }
+
+  .about {
+    margin-left: 0;
+  }
+
   .carousel-img {
     width: 400px;
     height: 400px;
@@ -58,9 +70,9 @@
 
   .carousel-arrow {
     display: block;
-    height: 65px;
+    height: 64px;
     width: 80px;
-    font-size: 1.875rem;
+    font-size: 2.3rem;
   }
 
   .carousel-arrow-next {
