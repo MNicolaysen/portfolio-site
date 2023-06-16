@@ -80,6 +80,7 @@
     width: 80px;
     font-size: 2.3rem;
     padding-bottom: 6px;
+    border: 1px solid black;
   }
 
   .carousel-arrow-next {
