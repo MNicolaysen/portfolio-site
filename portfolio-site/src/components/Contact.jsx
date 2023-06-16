@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   const [message, setMessage] = useState('');
-  const defaultSubject = 'RE: Message from portfolio site';
+  const defaultSubject = 'RE: Portfolio Site Contact Me';
 
   const handleSubmit = (e) => {
     e.preventDefault();
