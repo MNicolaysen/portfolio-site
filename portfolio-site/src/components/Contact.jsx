@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import './Contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
 
 function Contact() {
   const [message, setMessage] = useState('');
@@ -46,12 +43,12 @@ function Contact() {
         </li>
         <li className="contact-link">
           <a className='facebook-icon' href="https://m.me/nicolaysen1995" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faFacebook} className="social-icon" />
+            <i className="fa-brands fa-facebook-messenger"></i>
           </a>
         </li>
         <li className="contact-link">
           <a className='instagram-icon' href="https://www.instagram.com/morton_nicolaysen/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+            <i className="fa-brands fa-instagram"></i>
           </a>
         </li>
       </ul>
