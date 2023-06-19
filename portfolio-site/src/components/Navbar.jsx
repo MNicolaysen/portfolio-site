@@ -5,6 +5,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   const [isAtBottom, setIsAtBottom] = useState(false);
+  const [navbarVisible, setNavbarVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,9 +22,16 @@ export default function Navbar() {
     };
   }, []);
 
+  const toggleNavbar = () => {
+    setNavbarVisible((prevState) => !prevState);
+  };
+
   return (
     <nav className={`navbar ${isAtBottom ? 'navbar-hidden' : ''}`}>
       <div className="navbar-container">
+      <button className="navbar-toggle" onClick={toggleNavbar}>
+        arrow
+      </button>
         <ul>
           <CustomLink to="/" className="navbar-btn">
             <i className="fa-solid fa-house"></i>

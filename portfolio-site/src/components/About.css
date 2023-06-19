@@ -68,6 +68,32 @@
     margin-left: 0;
   }
 
+  .about-content {
+    position: relative;
+    background-color: white;
+  }
+
+  .react-tabs ul {
+    margin-bottom: 0;
+  }
+
+  .sheet{
+    background-color: white;
+    background: repeating-linear-gradient(white, white 27px, #777777 27px, #777777 28px);
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+   }
+
+   .sheet-text {
+    font-size: 1rem;
+    margin: 0 40px;
+    line-height: 27px;
+    padding-top: 6px;
+    margin-bottom: 26px;
+   }
+
+
   .carousel-img {
     width: 400px;
     height: 400px;

@@ -60,7 +60,7 @@
     width: 41%;
     height: 100vh;
     overflow-y: auto;
-    background-color: #F7F3E3;
+    background-color: #4a648a;
     z-index: 9999;
   }
 
@@ -92,6 +92,10 @@
 
   .contact-link-header li {
     cursor: pointer;
+  }
+
+  .contact-links {
+    padding-left: 0;
   }
 
   .contact-link-header:hover {

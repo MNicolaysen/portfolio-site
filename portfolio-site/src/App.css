@@ -33,7 +33,6 @@
   .right-components {
     grid-column: 2;
     overflow-y: auto;
-    background-color: #ECF0F1;
   }
 
   .main-header {
