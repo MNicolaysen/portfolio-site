@@ -61,7 +61,7 @@
 
 @media (min-width: 1000px) {
   .about-container {
-    margin-left: 25px;
+    margin-top: 80px;
   }
 
   .about {
@@ -81,34 +81,7 @@
     margin-top: 40px;
    }
 
-
-
-  .carousel-img {
-    width: 400px;
-    height: 400px;
-  }
-
-  .carousel-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-    width: 80px;
-    font-size: 2.3rem;
-    padding-bottom: 6px;
-    border: 1px solid black;
-  }
-
-  .carousel-arrow-next {
-    margin-right: 30px;
-  }
-
-  .carousel-arrow-prev {
-    margin-left: 25px;
-  }
-
-  .carousel-arrow:hover {
-    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
-    transform: scale(1.03);
-  }
+   .sheet-text {
+    margin: 0 50px 0 50px;
+   }
 }

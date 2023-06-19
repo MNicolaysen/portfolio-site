@@ -11,7 +11,8 @@ export const projectsData = [
     alt: "Meme Generator",
     framework: 'React.js',
     description: 'This is a project that I completed in my course with Scrimba. Through the module, I put into practice the use of useState, useEffect, props, and APIs.',
-    link: 'https://sparkly-alpaca-2bb10d.netlify.app'
+    linkOne: 'https://sparkly-alpaca-2bb10d.netlify.app',
+    linkTwo: '',
   },
   {
     title: "Travel Journal",
@@ -19,7 +20,8 @@ export const projectsData = [
     alt: "Travel Jouranl",
     framework: "React.js",
     description: "The purpose of this app was for me to put to practice the use of props in React. It is a travel jouranl for my recent trips to Malaysia and Indonesia.",
-    link: "https://verdant-tapioca-d5a576.netlify.app",
+    linkOne: "https://verdant-tapioca-d5a576.netlify.app",
+    linkTwo: 'https://github.com/MNicolaysen/scrimba-travel-journal',
   },
   {
     title: "Restaurant Ordering App",
@@ -27,7 +29,8 @@ export const projectsData = [
     alt: "Restaurant",
     framework: "JavaScript",
     description: "I created this app with vanilla JavaScript. It's a simple restauant ordering app that allows you to add items into your basket, romve them from the basket and proceed to checkout.",
-    link: "https://monumental-platypus-9e161c.netlify.app"
+    linkOne: "https://monumental-platypus-9e161c.netlify.app",
+    linkTwo: 'https://github.com/MNicolaysen/mobile-restaurant-menu',
   },
   {
     title: "Password Generator",
@@ -35,7 +38,8 @@ export const projectsData = [
     alt: "Password Generator",
     framework: "JavaScript",
     description: "This is an early app I made with my course with Scrimba. It generates a random password for you each time the buttom is clicked.",
-    link: "https://gilded-tapioca-d75ef6.netlify.app",
+    linkOne: "https://gilded-tapioca-d75ef6.netlify.app",
+    linkTwo: 'https://github.com/MNicolaysen/password-generator',
   },
   {
     title: "Unit Converter",
@@ -43,6 +47,7 @@ export const projectsData = [
     alt: "Unit Converter",
     framework: "JavaScript",
     description: "This is one of the first apps I created using JavaScript. It will convert any number you put in the input field into either, Meters/ Feet, Litres/ Gallons, Kilos/ Pounds",
-    link: "https://lovely-speculoos-f313a9.netlify.app",
+    linkOne: "https://lovely-speculoos-f313a9.netlify.app",
+    linkTwo: 'https://github.com/MNicolaysen/scrimba-unit-converter',
   },
 ];
