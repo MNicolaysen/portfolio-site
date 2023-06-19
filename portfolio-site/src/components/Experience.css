@@ -104,6 +104,14 @@
     padding: 0;
   }
 
+  .contact-links {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
   .experience .technical-skills-ul {
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 1px;
