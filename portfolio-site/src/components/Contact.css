@@ -74,6 +74,10 @@ button[type='submit'] {
 }
 
 @media (min-width: 1000px) {
+  .contact {
+    height: 600px;
+  }
+
   .contact-link {
     display: none;
   }
