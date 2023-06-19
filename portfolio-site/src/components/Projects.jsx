@@ -5,6 +5,9 @@ import "./Projects.css";
 function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }) {
   const [showDetails, setShowDetails] = useState(false);
 
+  const handleClick = () => {
+    window.open(linkOne, '_blank');
+  }
 
   const handleButton1Click = () => {
     window.open(linkOne, '_blank');
@@ -24,7 +27,7 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
   return (
     <div className="card-container">
       {window.innerWidth >= 1000 ? (
-        <div className={`card ${framework === 'React.js' ? 'react-framework' : ''}`}>
+        <div className={`card ${framework === 'React.js' ? 'react-framework' : ''}`} onClick={handleClick}>
           <img className="project-img" src={imageSrc} alt={alt} />
           <div className='details'>
             <h3 className="card-title">{title}</h3>
@@ -41,7 +44,7 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
           </div>
         </div>
       ) : (
-        <div className="card">
+        <div className="card" onClick={handleClick}>
           <h3 className="card-title">{title}</h3>
           <img className="project-img" src={imageSrc} alt={alt} />
           {showDetails && (
@@ -50,7 +53,7 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
               <p>{description}</p>
             </div>
           )}
-          <button className="see-more-button" onClick={() => setShowDetails(!showDetails)}>
+          <button className="see-more-button" onClick={toggleDetails}>
             {showDetails ? 'See Less' : 'See More'}
           </button>
         </div>
@@ -60,12 +63,26 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
 }
 
 export default function Projects() {
+  const lastCardRef = useRef(null);
+
+  useEffect(() => {
+    const lastCard = lastCardRef.current;
+
+    if (lastCard) {
+      lastCard.classList.add('last-card');
+    }
+  }, []);
+
   return (
     <div className='projects'>
       <h2 className='main-header'>My Projects</h2>
       <div className='card-group'>
         {projectsData.map((project, index) => (
-          <Card key={index} {...project} />
+          <Card
+            key={index}
+            {...project}
+            ref={index === projectsData.length - 1 ? lastCardRef : null}
+          />
         ))}
       </div>
     </div>
