@@ -30,9 +30,9 @@ function App() {
           </div>
           <div className="right-components">
             <About />
-            <Experience />
             <Projects />
             <Contact />
+            <Experience />
           </div>
         </div>
       )}

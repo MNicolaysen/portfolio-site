@@ -75,7 +75,8 @@ button[type='submit'] {
 
 @media (min-width: 1000px) {
   .contact {
-    height: 600px;
+    margin-top: 80px;
+    height: 85%;
   }
 
   .contact-link {
@@ -85,7 +86,6 @@ button[type='submit'] {
   .contact form {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
   }
 
   .form-group h4 {
@@ -97,7 +97,6 @@ button[type='submit'] {
     align-self: center;
     width: 72%;
     max-width: 800px;
-    margin: 50px 0 60px 0;
     background-color: white;
     padding: 10px 20px;
   }
@@ -122,12 +121,6 @@ button[type='submit'] {
 
   textarea:focus {
     outline: none;
-  }
-
-  .map {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
   }
 
   button[type='submit'] {

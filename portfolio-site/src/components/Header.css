@@ -6,7 +6,6 @@
   z-index: -1;
 }
 
-
 .profile-pic {
   width: 320px;
   height: 320px;
@@ -78,17 +77,19 @@
 
   .header h1 {
     font-size: 1.7rem;
+    color: white;
   }
 
   .header h3 {
     font-size: 1.1rem;
+    color: white;
   }
 
   .contact-link-header {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
-    margin-top: 20px;
+    font-size: 2rem;
+    margin: 10px 0 0 10px;
   }
 
   .contact-link-header li {
@@ -96,7 +97,14 @@
   }
 
   .contact-links {
+    display: flex;
+    flex-direction: column;
     padding-left: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
   }
 
   .contact-link-header:hover {
@@ -104,8 +112,16 @@
     transform: scale(1.3);
   }
 
-  .facebook-icon,
-  .instagram-icon {
-    transform: none !important;
+  .header button {
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #4a648a;
+    background-color: white;
   }
 }
