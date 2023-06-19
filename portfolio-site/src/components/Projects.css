@@ -71,35 +71,8 @@
     margin-left: 25px;
   }
 
-  .card-group {
-    margin-top: 50px;
-  }
-
   .projects-content {
     margin-top: 50px;
-  }
-
-  .card {
-    position: relative;
-    width: 450px;
-    height: 300px;
-    cursor: pointer;
-    border: solid 5px white;
-    box-shadow: 0 0 5px 4px black;
-    margin-bottom: -210px;
-    transition: margin-bottom 0.3s ease-out;
-  }
-
-  .card:hover {
-    border: none;
-    margin-bottom: 0;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.8);
-    z-index: 1;
-    background-color: #F7F3E3;
-  }
-
-  .card:nth-child(even) {
-    margin-left: 225px;
   }
 
   .project-img {
@@ -110,6 +83,31 @@
     object-fit: cover;
     border-radius: 6px;
     transition: opacity 0.3s ease-out;
+  }
+
+  .card {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    border: solid 5px #F7F3E3;
+    margin-bottom: -210px;
+    transition: margin-bottom 0.3s ease-out;
+  }
+
+  .card:hover {
+    border: none;
+    margin-bottom: 0;
+    z-index: 1;
+    background-color: #F7F3E3;
+  }
+
+  .card-group {
+    margin-top: 100px;
+  }
+
+  .card:nth-child(even) {
+    margin-left: 225px;
   }
 
   .card:hover .project-img {

@@ -57,7 +57,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 41%;
+    width:25%;
     height: 100vh;
     overflow-y: auto;
     background-color: #4a648a;
@@ -70,24 +70,24 @@
   }
 
   .profile-pic {
-    width: 23rem;
-    height: 23rem;
-    margin-bottom: 30px;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 10px;
     margin-top: 30px;
   }
 
   .header h1 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
 
   .header h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .contact-link-header {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 20px;
   }
 
