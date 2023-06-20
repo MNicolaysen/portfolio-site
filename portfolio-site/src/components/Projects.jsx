@@ -22,7 +22,8 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
     setShowDetails(!showDetails);
   };
 
-  const frameworkLabel = framework === 'React.js' ? 'Framework:' : 'Language:';
+  const frameworkLabel = framework === 'React.js' ? 'Framework:' : framework === 'Ruby on Rails' ? 'Framework:' : 'Language:';
+
 
   return (
     <div className="card-container">
@@ -34,12 +35,16 @@ function Card({ title, imageSrc, framework, alt, description, linkOne, linkTwo }
             <h4>{frameworkLabel} {framework}</h4>
             <p>{description}</p>
             <div className="button-group">
-              <button className="card-button" onClick={handleButton1Click}>
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-              </button>
+              {linkOne &&
+                <button className="card-button" onClick={handleButton1Click}>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              }
+              {linkTwo &&
               <button className="card-button" onClick={handleButton2Click}>
                 <i className="fa-brands fa-github"></i>
               </button>
+              }
             </div>
           </div>
         </div>

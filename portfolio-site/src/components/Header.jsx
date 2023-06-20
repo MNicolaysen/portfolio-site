@@ -32,9 +32,11 @@ export default function Header() {
           <h3 className="subheading">Web Developer</h3>
         </div>
         {isBigScreen && <ContactLinks />}
-        <a href="./src/components/CV_compressed.pdf" download>
-          <button>Download CV</button>
-        </a>
+        {!isBigScreen &&
+          <a href="./src/components/CV_compressed.pdf" download>
+            <button className='cv-btn'>Download CV</button>
+          </a>
+        }
       </div>
     </div>
   );

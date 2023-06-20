@@ -75,7 +75,6 @@ button[type='submit'] {
 @media (min-width: 1000px) {
   .contact {
     margin-top: 80px;
-    height: 85%;
   }
 
   .contact-link {
@@ -94,10 +93,11 @@ button[type='submit'] {
   .form-group {
     align-items: flex-start;
     align-self: center;
-    width: 72%;
+    width: 75%;
     max-width: 800px;
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 80px;
   }
 
   .email-header {
@@ -112,7 +112,7 @@ button[type='submit'] {
   textarea {
     width: 100%;
     max-width: 610px;
-    height: 250px;
+    height: 300px;
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 0;

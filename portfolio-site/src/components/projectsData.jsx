@@ -3,6 +3,7 @@ import restaurantApp from "../components/images/projects/restaurant.png";
 import passwordGenerator from "../components/images/projects/password-generator.png";
 import unitConverter from "../components/images/projects/unit-converter.png";
 import travelJournal from "../components/images/projects/travel-journal.png";
+import plantSwap from "../components/images/projects/plant-swap.png"
 
 export const projectsData = [
   {
@@ -50,4 +51,13 @@ export const projectsData = [
     linkOne: "https://lovely-speculoos-f313a9.netlify.app",
     linkTwo: 'https://github.com/MNicolaysen/scrimba-unit-converter',
   },
+  {
+    title: "PlantSwap",
+    imageSrc: plantSwap,
+    alt: "PlantSwap",
+    framework: "Ruby on Rails",
+    description: "This was the final project for my Le Wagon course that I created with a team of 4 people. We wanted to create a platform for people to swap and donate their plants, plant clippings or plant babies. A couple of features included were; a live chat function and use of map api for current location and location of swapper.",
+    linkOne: "",
+    linkTwo: 'https://github.com/MNicolaysen/plant-swap',
+  }
 ];
