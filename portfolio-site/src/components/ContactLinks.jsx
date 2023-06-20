@@ -22,7 +22,7 @@ export default function ContactLinks() {
         </a>
       </li>
       <li className="contact-link-header">
-        <a style={{color: 'white', textDecoration: 'none', fontFamily:'helvetica', fontSize:'20px'}} href="./src/components/CV_compressed.pdf" download>
+        <a style={{color: 'white', textDecoration: 'none', fontFamily:'Open Sans', fontSize:'20px'}} href="./src/components/CV_compressed.pdf" download>
           <i>CV</i>
         </a>
       </li>

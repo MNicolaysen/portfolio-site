@@ -14,6 +14,7 @@
   margin: 0 auto;
   position: relative;
   margin-top: 30px;
+  margin-bottom: 20px;
   border: 1px solid black;
 }
 
@@ -21,8 +22,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 8px !important;
-  font-size: 1rem;
+  margin-left: 12px !important;
+  font-size: 0.8rem;
   margin-bottom: 4px;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -51,11 +52,11 @@ button[type='submit'] {
   border-style: none;
   border-radius: 6px;
   height: 45px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: black;
   background-color: transparent;
   position: absolute;
-  right: 0;
+  right: -8px;
   top: 0;
 }
 
